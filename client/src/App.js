@@ -8,7 +8,6 @@ import CreateUser from './components/signup/CreateUser';
 import EditUser from './components/signup/EditUser';
 import PrivateRoute from './routes/PrivateRoute';
 import UserProfileView from './components/signup/UserProfileView';
-import './App.css';
 
 function App() {
   return (
