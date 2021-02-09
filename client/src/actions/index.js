@@ -10,7 +10,7 @@ import {
 export const registerUser = (userData) => dispatch => {
   dispatch(clearErrors());
   const user = localStorage.getItem("userDetails");
-  if(user.email === userData.email) {
+  if(user != null && user.email === userData.email) {
     dispatch({
       type: SHOW_MODAL,
       payload: {
