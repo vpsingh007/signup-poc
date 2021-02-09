@@ -15,7 +15,7 @@ code {
 }
 
 .cover-photo {
-  background: url('./assets//images//showcase.jpg');
+  background: url('./showcase.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   /* width: 350px; */
