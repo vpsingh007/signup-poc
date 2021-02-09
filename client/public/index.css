@@ -14,13 +14,12 @@ code {
     monospace;
 }
 
-.cover-photo {
+/* .cover-photo {
   background: url('./showcase.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: 350px; */
   height: calc(100vh - 3rem);
-}
+} */
 .right {
   background-color: white;
   padding: 50px;

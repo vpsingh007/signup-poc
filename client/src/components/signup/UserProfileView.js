@@ -11,8 +11,7 @@ const UserProfileView = props => {
     
     return (
         <Row className="mt-4">
-            <Col sm="5 cover-photo"></Col>
-            <Col sm="7 right">
+        <Col sm="6 right m-auto">
                 <h1 className="display-5">User Details</h1>
                 <ul>
                     <li>
